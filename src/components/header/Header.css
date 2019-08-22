@@ -1,0 +1,24 @@
+.header {
+    border-bottom: 2px solid green;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.header .shopping-cart {
+    align-self: center;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.header .shopping-cart .cart-icon {
+    font-size: 25px;
+    color: #28a745;
+    margin-right: 10px;
+}
